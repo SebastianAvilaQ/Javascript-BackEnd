@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    display: grid;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.reloj{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(151,18,205,1) 44%, rgba(82,235,59,1) 63%, rgba(0,0,0,1) 100%);
+    border: 0.5rem solid;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
