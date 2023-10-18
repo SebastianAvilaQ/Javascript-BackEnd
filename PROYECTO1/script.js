@@ -21,7 +21,8 @@ botones.forEach(boton => {
             return;
         }
         if (/[/]/.test(pantalla.textContent.slice(-1)) && /[/]/.test(botonOn)) {
-            throw new Error("ERROR");
+             // genera una excepción con un valor cadena
+            throw "Error";
         }
 
         if (boton.id === "igual") {
