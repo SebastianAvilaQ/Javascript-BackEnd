@@ -38,3 +38,9 @@ justify-content: center;
 display: flex;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.esqueletoOnOff:hover {
+    transform: scale(1);
+    border-radius: 2vh;
+    cursor: pointer;
+  }
